@@ -1,4 +1,4 @@
-module.export = function findItemsOver(itemList, threshold) {
+export default function findItemsOver(itemList, threshold) {
     var sum = [];
   for (var i = 0; i < itemList.length; i++) {
     var item = itemList[i];

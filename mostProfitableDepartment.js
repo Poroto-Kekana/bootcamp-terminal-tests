@@ -1,4 +1,4 @@
-module.export = function mostProfitableDay (data) {
+export default function mostProfitableDay (data) {
     var dayMap = {};
     for ( let Day in data) {
       var dayList = data[Day];
