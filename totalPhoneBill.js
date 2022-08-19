@@ -1,4 +1,4 @@
-module.export = function totalPhoneBill(alert){
+export default function totalPhoneBill(alert){
     var call = 2.75
     var alerted = alert.split(', ');
     var sms = 0.65
