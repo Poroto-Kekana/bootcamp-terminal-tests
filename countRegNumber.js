@@ -1,3 +1,3 @@
-module.export = function countRegNUmber (reg) {
+export default function countRegNUmber (reg) {
     return reg.split(",").length
 }
